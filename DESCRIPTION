@@ -1,11 +1,10 @@
 Package: KEEPERinEurope
-Title: What the Package Does (One Line, Title Case)
+Title: A Validation Study In European Data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Kristin", "Kostka", , "kostka@ohdsi.org", role = c("aut", "cre"))
+Description: This package instantiates clinical cohorts created and validated by two academic teams (Columbia Irving Medical and University of Oxford, Health Data Sciences). The package loads these cohorts and makes OHDSI-KEEPER profiles for the phenotypes and generates IncidencePrevalence data for each condition. The purpose of this package is to evaluate how KEEPER extends to non-US data.
+License: `use_mit_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.0
